@@ -5,6 +5,8 @@ git 간단 정리
 remote : github에서 제공해주는 클라우드 공간
 local : 내 컴퓨터 공간
 
+.gitignore : git 커밋할때에 해당 폴더 혹은 포맷파일은 다 무시한다 를 기록하는 파일
+
 [local에 리포지토리 가져오기]
 1. 내 컴퓨터 폴더들 중 리포지토리를 가져올 폴더로 이동
 2. 우클릭 - open git bash here
