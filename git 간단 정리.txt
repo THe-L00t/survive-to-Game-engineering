@@ -24,6 +24,14 @@ local : 내 컴퓨터 공간
 3. push하여 remote에도 적용
 	git push
 
+[리포지토리에서 작업할때 해야할 것]
+다른 사용자 혹은 다른 환경에서 새로 갱신된 commit이 있을 수 있으니 해야합니다.
+1. 더 바뀐 내용을 가져옴
+	git fetch
+2. 바뀐 내용을 적용함. 현재 리포지토리의 상태가 최신이 됌.
+	git pull
+* pull만 사용하여도 됩니다. fetch없이 
+
 * 자주 발생하는 문제 * 
 upstream 관련 : push하려는데 fatal이 뜨며 안된다고 오류가 난다면 다음과 같이 작성
 	git push -u origin main
