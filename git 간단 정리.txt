@@ -1,0 +1,33 @@
+git 간단 정리
+
+리포지토리 : git에서 관리할 폴더
+
+remote : github에서 제공해주는 클라우드 공간
+local : 내 컴퓨터 공간
+
+[local에 리포지토리 가져오기]
+1. 내 컴퓨터 폴더들 중 리포지토리를 가져올 폴더로 이동
+2. 우클릭 - open git bash here
+3. 명령어 입력
+	git clone ~~(리포지토리 주소)~~.git
+
+[리포지토리 내용 수정 후 해야할 것]
+(선택) 수정한 파일이 git에서 잘 탐색 되었는지 확인
+	git status
+
+1. 수정하거나 추가된 파일 스태시 공간에 추가
+	git add (파일 이름)  or git add .
+2. 어떤 변화였는지 기록하여 커밋
+	git commit -m " (변화내용) " 
+3. push하여 remote에도 적용
+	git push
+
+* 자주 발생하는 문제 * 
+upstream 관련 : push하려는데 fatal이 뜨며 안된다고 오류가 난다면 다음과 같이 작성
+	git push -u origin main
+
+파일의 크기가 너무 큰 경우 : 되도록 용량이 큰 파일은 따로 작업하기를 권장
+꼭 같이 관리해야한다면 git LFS 찾아볼것
+
+추가적으로 git을 더 알고 싶다면?
+https://git-scm.com/book/ko/v2
