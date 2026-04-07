@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Framework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\Framework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Time.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\Time.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Time.h",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Time.h",
+              "RelativeDocumentMoniker": "Consol_RPG\\Time.h",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Time.h",
+              "RelativeToolTip": "Consol_RPG\\Time.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-06T12:06:29.215Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Framework.cpp",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Framework.cpp",
+              "RelativeDocumentMoniker": "Consol_RPG\\Framework.cpp",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Framework.cpp",
+              "RelativeToolTip": "Consol_RPG\\Framework.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-06T11:39:39.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Framework.h",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Framework.h",
+              "RelativeDocumentMoniker": "Consol_RPG\\Framework.h",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Framework.h",
+              "RelativeToolTip": "Consol_RPG\\Framework.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-06T11:39:32.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\main.cpp",
+              "RelativeDocumentMoniker": "Consol_RPG\\main.cpp",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\main.cpp",
+              "RelativeToolTip": "Consol_RPG\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-04-06T11:13:59.622Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
