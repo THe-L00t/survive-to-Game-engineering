@@ -1,5 +1,6 @@
 #pragma once
 #include <memory>
+#include "pch.h";
 #include "TimeManager.h"
 
 class Framework
