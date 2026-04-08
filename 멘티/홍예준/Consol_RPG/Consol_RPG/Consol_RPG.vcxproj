@@ -132,7 +132,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Framework.h" />
-    <ClInclude Include="Time.h" />
+    <ClInclude Include="TimeManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
