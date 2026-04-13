@@ -1,0 +1,136 @@
+{"frames": [
+
+{
+	"name": "Cactus_0",
+	"frame": {"x":0,"y":0,"w":34,"h":70}
+},
+{
+	"name": "Cactus_1",
+	"frame": {"x":47,"y":0,"w":68,"h":70}
+},
+{
+	"name": "Cactus_2",
+	"frame": {"x":128,"y":0,"w":102,"h":70}
+},
+{
+	"name": "Cactus_3",
+	"frame": {"x":243,"y":0,"w":50,"h":100}
+},
+{
+	"name": "Cactus_4",
+	"frame": {"x":306,"y":0,"w":100,"h":100}
+},
+{
+	"name": "Cactus_5",
+	"frame": {"x":419,"y":0,"w":150,"h":100}
+},
+{
+	"name": "Cloud",
+	"frame": {"x":582,"y":0,"w":92,"h":27}
+},
+{
+	"name": "Dino_crouch_0",
+	"frame": {"x":0,"y":113,"w":118,"h":60}
+},
+{
+	"name": "Dino_crouch_1",
+	"frame": {"x":131,"y":113,"w":118,"h":60}
+},
+{
+	"name": "Dino_death",
+	"frame": {"x":262,"y":113,"w":88,"h":94}
+},
+{
+	"name": "Dino_idle",
+	"frame": {"x":363,"y":113,"w":88,"h":94}
+},
+{
+	"name": "Dino_run_0",
+	"frame": {"x":464,"y":113,"w":88,"h":94}
+},
+{
+	"name": "Dino_run_1",
+	"frame": {"x":565,"y":113,"w":88,"h":94}
+},
+{
+	"name": "GAMEOVER",
+	"frame": {"x":0,"y":220,"w":381,"h":21}
+},
+{
+	"name": "Ground_0",
+	"frame": {"x":0,"y":254,"w":800,"h":26}
+},
+{
+	"name": "Ground_1",
+	"frame": {"x":0,"y":293,"w":800,"h":26}
+},
+{
+	"name": "Ground_2",
+	"frame": {"x":0,"y":332,"w":800,"h":26}
+},
+{
+	"name": "HI",
+	"frame": {"x":0,"y":371,"w":38,"h":21}
+},
+{
+	"name": "Num_0",
+	"frame": {"x":51,"y":371,"w":18,"h":21}
+},
+{
+	"name": "Num_1",
+	"frame": {"x":82,"y":371,"w":18,"h":21}
+},
+{
+	"name": "Num_2",
+	"frame": {"x":113,"y":371,"w":18,"h":21}
+},
+{
+	"name": "Num_3",
+	"frame": {"x":144,"y":371,"w":18,"h":21}
+},
+{
+	"name": "Num_4",
+	"frame": {"x":175,"y":371,"w":18,"h":21}
+},
+{
+	"name": "Num_5",
+	"frame": {"x":206,"y":371,"w":18,"h":21}
+},
+{
+	"name": "Num_6",
+	"frame": {"x":237,"y":371,"w":18,"h":21}
+},
+{
+	"name": "Num_7",
+	"frame": {"x":268,"y":371,"w":18,"h":21}
+},
+{
+	"name": "Num_8",
+	"frame": {"x":299,"y":371,"w":18,"h":21}
+},
+{
+	"name": "Num_9",
+	"frame": {"x":330,"y":371,"w":18,"h":21}
+},
+{
+	"name": "Pterosaur_0",
+	"frame": {"x":361,"y":371,"w":92,"h":80}
+},
+{
+	"name": "Pterosaur_1",
+	"frame": {"x":466,"y":371,"w":92,"h":80}
+},
+{
+	"name": "Retry",
+	"frame": {"x":571,"y":371,"w":72,"h":64}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "DinoRun",
+	"format": "RGBA8888",
+	"size": {"w":800,"h":451},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e84fb031640aa5c2feba27a78c1998ba:36e9fe2b768d1de633c5b95568a93e1a:0f279eb6208883f06cd70a1127616d55$"
+}
+}

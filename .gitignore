@@ -1,0 +1,6 @@
+# VS Code 개인 설정 폴더 제외
+.vscode/
+# CMake 빌드 결과물 제외 (범용적인 이름들)
+build/
+bin/
+out/
