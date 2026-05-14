@@ -7,7 +7,7 @@
 #include <fstream>			// 파일 입출력(세이브, 로드)
 #include <sstream>			// 문자열 분리 또는 데이터를 문자열로 합치기
 #include <format>			// (C++20) 변수를 깔끔한 형식의 문자열로 조립
-#include <print>			// (C++23) iostream보다 더 빠르게 콘솔 텍스트 출력
+//#include <print>			// (C++23) iostream보다 더 빠르게 콘솔 텍스트 출력 (사용 x)
 // 자료구조 헤더
 #include <vector>			// 데이터 개수에 따라 크기 조절되는 동적 배열
 #include <unordered_map>	// 이름표(key)를 달아 데이터(value)를 저장하고 빠르게 검색하는 테이블

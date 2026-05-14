@@ -1,6 +1,6 @@
 #pragma once
-#include "Scene.h"
 #include "pch.h"
+#include "Scene.h"
 #include <iostream>
 
 class TitleScene : public Scene
@@ -19,8 +19,36 @@ public:
 		// 콘솔 커서를 맨 왼쪽 위(0,0)로 이동
 		COORD cursorPosition = { 0, 0 };
 		SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), cursorPosition);
-
-		std::cout << "Press Enter to Start";
+		std::cout << "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" << std::endl;
+		std::cout << "■                                                                                          ■" << std::endl;
+		std::cout << "■                                                                                          ■" << std::endl;
+		std::cout << "■         ■■■■     ■■■    ■■■■      ■■■■    ■■■    ■                    ■" << std::endl;
+		std::cout << "■       ■           ■      ■  ■      ■  ■          ■      ■  ■                    ■" << std::endl;
+		std::cout << "■       ■           ■      ■  ■      ■    ■■■■  ■      ■  ■                    ■" << std::endl;
+		std::cout << "■       ■           ■      ■  ■      ■          ■  ■      ■  ■                    ■" << std::endl;
+		std::cout << "■         ■■■■     ■■■    ■      ■  ■■■■      ■■■    ■■■                ■" << std::endl;
+		std::cout << "■                                                                                          ■" << std::endl;
+		std::cout << "■                  ■■■■■■■□        ■■■■■■□          ■■■■■■■□        ■" << std::endl;
+		std::cout << "■                ■■■■■■■■■□    ■■■■■■■■□      ■■■■■■■■■□      ■" << std::endl;
+		std::cout << "■                ■■□        ■■□    ■■□        ■■□  ■■■□                    ■" << std::endl;
+		std::cout << "■                ■■□        ■■□    ■■□        ■■□  ■■□                      ■" << std::endl;
+		std::cout << "■                ■■■■■■■■□      ■■■■■■■■□    ■■□                      ■" << std::endl;
+		std::cout << "■                ■■■■■□            ■■■■■■■□      ■■□        ■■■□      ■" << std::endl;
+		std::cout << "■                ■■■■■■□          ■■□                ■■□      ■■■■□      ■" << std::endl;
+		std::cout << "■                ■■□  ■■■□        ■■□                ■■■□        ■■□      ■" << std::endl;
+		std::cout << "■                ■■□    ■■■□      ■■□                  ■■■■■■■■□        ■" << std::endl;
+		std::cout << "■                ■■□      ■■□      ■■□                    ■■■■■■□          ■" << std::endl;
+		std::cout << "■                                                                                          ■" << std::endl;
+		std::cout << "■                                                                                          ■" << std::endl;
+		std::cout << "■                  ~그냥 대충 해보는 RPG 게임 스토리도 뭣도 아무것도 없다~                 ■" << std::endl;
+		std::cout << "■                                                                                          ■" << std::endl;
+		std::cout << "■                                                                                          ■" << std::endl;
+		std::cout << "■                                - Press Enter to Start -                                  ■" << std::endl;
+		std::cout << "■                                                                                          ■" << std::endl;
+		std::cout << "■                                                                                          ■" << std::endl;
+		std::cout << "■                                                                                          ■" << std::endl;
+		std::cout << "■                                                                                          ■" << std::endl;
+		std::cout << "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■" << std::endl;
 	}
 	void Release() override {
 		//데이터 정리

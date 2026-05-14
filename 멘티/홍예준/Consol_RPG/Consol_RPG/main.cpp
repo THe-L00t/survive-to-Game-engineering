@@ -1,3 +1,4 @@
+#include "pch.h"
 #include <iostream>
 #include "Framework.h"
 
@@ -13,6 +14,9 @@ struct CharacterStatus {
 
 
 int main() {
+	//콘솔 크기 정하기
+	system("mode con cols=150 lines=40");
+
 	// 1. 프레임워크 생성
 	Framework game;
 
