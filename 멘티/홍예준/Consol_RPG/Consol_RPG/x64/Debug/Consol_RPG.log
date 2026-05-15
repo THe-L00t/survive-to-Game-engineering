@@ -1,34 +1,12 @@
-﻿  MapScene.cpp
-C:\GitHub\survive-to-Game-engineering\멘티\홍예준\Consol_RPG\Consol_RPG\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'MapScene.cpp'을(를) 컴파일하는 중)
+﻿  Framework.cpp
+C:\Github\survive-to-Game-engineering\멘티\홍예준\Consol_RPG\Consol_RPG\Framework.h(2,10): warning C4067: 전처리기 지시문 다음에 예기치 않은 토큰이 있습니다. 줄 바꿈 문자가 필요합니다.
+  (소스 파일 'Framework.cpp'을(를) 컴파일하는 중)
   
-C:\GitHub\survive-to-Game-engineering\멘티\홍예준\Consol_RPG\Consol_RPG\MapScene.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'MapScene.cpp'을(를) 컴파일하는 중)
-  
-C:\GitHub\survive-to-Game-engineering\멘티\홍예준\Consol_RPG\Consol_RPG\Scene.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'MapScene.cpp'을(를) 컴파일하는 중)
-  
-C:\GitHub\survive-to-Game-engineering\멘티\홍예준\Consol_RPG\Consol_RPG\SceneManager.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'MapScene.cpp'을(를) 컴파일하는 중)
-  
-C:\GitHub\survive-to-Game-engineering\멘티\홍예준\Consol_RPG\Consol_RPG\TownScene.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'MapScene.cpp'을(를) 컴파일하는 중)
-  
+  MapScene.cpp
+  Scene.cpp
+  SceneManager.cpp
+  TitleScene.cpp
   TownScene.cpp
-C:\GitHub\survive-to-Game-engineering\멘티\홍예준\Consol_RPG\Consol_RPG\pch.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'TownScene.cpp'을(를) 컴파일하는 중)
-  
-C:\GitHub\survive-to-Game-engineering\멘티\홍예준\Consol_RPG\Consol_RPG\TownScene.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'TownScene.cpp'을(를) 컴파일하는 중)
-  
-C:\GitHub\survive-to-Game-engineering\멘티\홍예준\Consol_RPG\Consol_RPG\Scene.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'TownScene.cpp'을(를) 컴파일하는 중)
-  
-C:\GitHub\survive-to-Game-engineering\멘티\홍예준\Consol_RPG\Consol_RPG\SceneManager.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'TownScene.cpp'을(를) 컴파일하는 중)
-  
-C:\GitHub\survive-to-Game-engineering\멘티\홍예준\Consol_RPG\Consol_RPG\MapScene.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
-  (소스 파일 'TownScene.cpp'을(를) 컴파일하는 중)
-  
+  UIManager.cpp
   코드를 생성하고 있습니다...
-  Consol_RPG.vcxproj -> C:\GitHub\survive-to-Game-engineering\멘티\홍예준\Consol_RPG\x64\Debug\Consol_RPG.exe
+  Consol_RPG.vcxproj -> C:\Github\survive-to-Game-engineering\멘티\홍예준\Consol_RPG\x64\Debug\Consol_RPG.exe

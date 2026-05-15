@@ -1,7 +1,7 @@
 #include "UIManager.h"
 
 void UIManager::PrintPlayerStatus() {
-	std::cout << "============플레이어 스텟============" << std::endl;
+	std::cout << std::endl << "============플레이어 스텟============" << std::endl;
 	std::cout << "         직업 : " << Player::Instance->job << std::endl;
 	std::cout << "         레벨 : " << Player::Instance->level << std::endl;
 	std::cout << "         체력 : " << Player::Instance->currentHp << " / " << Player::Instance->maxHp << std::endl;

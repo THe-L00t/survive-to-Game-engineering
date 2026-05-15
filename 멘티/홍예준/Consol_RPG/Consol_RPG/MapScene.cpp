@@ -32,12 +32,12 @@ void MapScene::Update(float deltaTime) {
 				if (key == 72) {		// 위 화살표
 					selectedIndex--;
 					// 맨 위 메뉴에서 위로 한 칸 더 이동하면 맨 아래로 이동
-					if (selectedIndex < 0) selectedIndex = MAX_MENU - 1;
+					if (selectedIndex < 0) selectedIndex = maxMenu - 1;
 				}
 				else if (key == 80) {	// 아래 화살표
 					selectedIndex++;
 					// 맨 마지막 메뉴에서 아래로 한 칸 더 이동하면 맨 위로 이동
-					if (selectedIndex >= MAX_MENU) selectedIndex = 0;
+					if (selectedIndex >= maxMenu) selectedIndex = 0;
 				}
 			}
 			else if (key == 13) {		// 엔터 입력

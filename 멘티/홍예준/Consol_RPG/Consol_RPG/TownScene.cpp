@@ -2,39 +2,49 @@
 #include "TownScene.h"
 #include "SceneManager.h"
 #include "MapScene.h"
+#include "UIManager.h"
 
 void TownScene::Init() {
 	// 초기화
 	system("cls");
 	isMenuOpen = false;
+	isMapMenuOpen = false;
+	selectedMenuIndex = 0;
 	selectedIndex = 0;
+	maxMenu = 2;
 }
 
 void TownScene::Update(float deltaTime) {
-	// 키 입려 받기
+	// 키 입력 받기
 	if (_kbhit()) {
 		int key = _getch();
 
 		// ESC(27) 키를 입력 받았을때
 		if (key == 27) {
-			isMenuOpen = !isMenuOpen;	//true면 flase로 false면 true로
-			system("cls");				//화면 겹치지 않게 초기화
+			if (isMapMenuOpen) {			//하위 메뉴가 먼저
+				isMapMenuOpen = false;
+			}
+			else {
+				isMenuOpen = !isMenuOpen;	//true면 flase로 false면 true로
+			}
+			system("cls");					//화면 겹치지 않게 초기화
 		}
-		// 메뉴가 열려있을때만 방향키 및 엔터 작동
-		else if (isMenuOpen) {
+		// 하위 메뉴(맵 선택)이 열려있을때가 최우선으로
+		else if (isMapMenuOpen) {
 			if (key == 224) {			//224 : 방향키 입력 감지
 				key = _getch();			// 키 입력 한번 더 가져오기
-				
+
 				if (key == 72) {		// 위 화살표
 					selectedIndex--;
 					// 맨 위 메뉴에서 위로 한 칸 더 이동하면 맨 아래로 이동
-					if (selectedIndex < 0) selectedIndex = MAX_MENU - 1;
+					if (selectedIndex < 0) selectedIndex = maxMenu - 1;
 				}
 				else if (key == 80) {	// 아래 화살표
 					selectedIndex++;
 					// 맨 마지막 메뉴에서 아래로 한 칸 더 이동하면 맨 위로 이동
-					if (selectedIndex >= MAX_MENU) selectedIndex = 0;
+					if (selectedIndex >= maxMenu) selectedIndex = 0;
 				}
+				system("cls");
 			}
 			else if (key == 13) {		// 엔터 입력
 				if (selectedIndex == 0) {
@@ -45,11 +55,35 @@ void TownScene::Update(float deltaTime) {
 					//맵 이동
 					SceneManager::Instance->ChangeScene(new MapScene("어두운 동굴", 2));
 				}
+			}
+		}
+		// 메뉴가 열려있을때만 방향키 및 엔터 작동
+		else if (isMenuOpen) {
+			if (key == 224) {			//224 : 방향키 입력 감지
+				key = _getch();			// 키 입력 한번 더 가져오기
 
+				if (key == 72) {		// 위 화살표
+					selectedMenuIndex--;
+					// 맨 위 메뉴에서 위로 한 칸 더 이동하면 맨 아래로 이동
+					if (selectedMenuIndex < 0) selectedMenuIndex = maxMenu - 1;
+				}
+				else if (key == 80) {	// 아래 화살표
+					selectedMenuIndex++;
+					// 맨 마지막 메뉴에서 아래로 한 칸 더 이동하면 맨 위로 이동
+					if (selectedMenuIndex >= maxMenu) selectedMenuIndex = 0;
+				}
+				system("cls");
+			}
+			else if (key == 13) {		// 엔터 입력
+				if (selectedMenuIndex == 0) {
+					isMapMenuOpen = true;
+				}
+				else if (selectedMenuIndex == 1) {
+					UIManager::PrintPlayerStatus();
+				}
 			}
 		}
 	}
-
 }
 
 void PrintBone() {
@@ -84,14 +118,27 @@ void TownScene::Render() {
 		}
 		std::cout << "========================";
 	}
+	else if (isMenuOpen) {
+		std::cout << std::endl << "====== 메뉴 선택 ======" << std::endl;
+
+		if (selectedMenuIndex == 0) {
+			std::cout << " ▶ 1. 맵 이동" << std::endl;
+		}
+		else {
+			std::cout << "    1. 맵 이동" << std::endl;
+		}
+		if (selectedMenuIndex == 1) {
+			std::cout << " ▶ 2. 플레이어 정보 확인" << std::endl;
+		}
+		else {
+			std::cout << "    2. 플레이어 정보 확인" << std::endl;
+		}
+		std::cout << "========================";
+		
+	}
 	else {
 		//메뉴가 닫혔을때 잔상 지우기
-		std::cout << "                                             " << std::endl;
-		std::cout << "                                             " << std::endl;
-		std::cout << "                                             " << std::endl;
-		std::cout << "                                             " << std::endl;
-		std::cout << "                                             " << std::endl;
-		std::cout << "                                             " << std::endl;
+		for(int i = 0; i < 6; i++) std::cout << "                                             " << std::endl;
 	}
 }
 
