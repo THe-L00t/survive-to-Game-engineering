@@ -1,7 +1,7 @@
 #include "Framework.h"
 #include "SceneManager.h"
 #include "TitleScene.h"
-
+#include "Player.h"
 
 TimeManager* TimeManager::Instance = nullptr; //Time의 실제 선언
 
@@ -15,6 +15,7 @@ Framework::~Framework() {
 void Framework::Init() { //초기화
 	// 씬 매니저 객체 생성 (싱글톤) <- 공부
 	new SceneManager();
+	new Player();
 
 	// 첫 화면을 TitleScene으로 설정
 	SceneManager::Instance->ChangeScene(new TitleScene());

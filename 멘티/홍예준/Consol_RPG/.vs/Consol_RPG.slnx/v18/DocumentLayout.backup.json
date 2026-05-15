@@ -67,7 +67,12 @@
               "ViewState": "AgIAAB8AAAAAAAAAAAArwC8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-15T06:03:18.412Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -75,12 +80,11 @@
               "Title": "MapScene.h",
               "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\MapScene.h",
               "RelativeDocumentMoniker": "Consol_RPG\\MapScene.h",
-              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\MapScene.h*",
-              "RelativeToolTip": "Consol_RPG\\MapScene.h*",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\MapScene.h",
+              "RelativeToolTip": "Consol_RPG\\MapScene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-15T05:59:22.957Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-15T05:59:22.957Z"
             },
             {
               "$type": "Document",
@@ -92,8 +96,7 @@
               "RelativeToolTip": "Consol_RPG\\TitleScene.cpp",
               "ViewState": "AgIAAAQAAAAAAAAAAAAmwDkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-15T04:40:02.902Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-15T04:40:02.902Z"
             },
             {
               "$type": "Document",
@@ -105,8 +108,7 @@
               "RelativeToolTip": "Consol_RPG\\TownScene.cpp",
               "ViewState": "AgIAAEcAAAAAAAAAAAAmwF4AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-15T04:37:42.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-15T04:37:42.774Z"
             },
             {
               "$type": "Document",
@@ -118,8 +120,7 @@
               "RelativeToolTip": "Consol_RPG\\TownScene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-15T04:24:40.968Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-15T04:24:40.968Z"
             },
             {
               "$type": "Document",

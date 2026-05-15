@@ -65,7 +65,7 @@ void TownScene::Render() {
 	COORD cursorPosition = { 0,0 };
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), cursorPosition);
 	PrintBone();
-	if (isMenuOpen) {
+	if (isMapMenuOpen) {
 		std::cout << std::endl << "===== 맵 이동 메뉴 =====" << std::endl;
 
 		//selectedIndex 값에 따라 커서의 위치가 바뀜
