@@ -1,54 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\",
+  "WorkspaceRootPath": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TitleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\TitleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\MapScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\MapScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TownScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\TownScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Framework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\Framework.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\MapScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\MapScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TitleScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TownScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\TownScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TitleScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\TitleScene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\Framework.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TitleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\TitleScene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TimeManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\TimeManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6E3E518B-91EE-4F1E-A7BD-9E98A902D242}|Consol_RPG\\Consol_RPG.vcxproj|solutionrelative:Consol_RPG\\pch.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,80 +54,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TitleScene.cpp",
-              "DocumentMoniker": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TitleScene.cpp",
-              "RelativeDocumentMoniker": "Consol_RPG\\TitleScene.cpp",
-              "ToolTip": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TitleScene.cpp",
-              "RelativeToolTip": "Consol_RPG\\TitleScene.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "MapScene.cpp",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\MapScene.cpp",
+              "RelativeDocumentMoniker": "Consol_RPG\\MapScene.cpp",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\MapScene.cpp",
+              "RelativeToolTip": "Consol_RPG\\MapScene.cpp",
+              "ViewState": "AgIAAB8AAAAAAAAAAAArwC8AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-14T08:04:01.037Z",
+              "WhenOpened": "2026-05-15T06:03:18.412Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Framework.cpp",
-              "DocumentMoniker": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Framework.cpp",
-              "RelativeDocumentMoniker": "Consol_RPG\\Framework.cpp",
-              "ToolTip": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Framework.cpp",
-              "RelativeToolTip": "Consol_RPG\\Framework.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-06T11:39:39.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Scene.cpp",
-              "DocumentMoniker": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Scene.cpp",
-              "RelativeDocumentMoniker": "Consol_RPG\\Scene.cpp",
-              "ToolTip": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Scene.cpp",
-              "RelativeToolTip": "Consol_RPG\\Scene.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-14T06:36:13.217Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TitleScene.h",
-              "DocumentMoniker": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TitleScene.h",
-              "RelativeDocumentMoniker": "Consol_RPG\\TitleScene.h",
-              "ToolTip": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TitleScene.h",
-              "RelativeToolTip": "Consol_RPG\\TitleScene.h",
-              "ViewState": "AgIAABMAAAAAAAAAAAAswCYAAABoAAAAAAAAAA==",
+              "Title": "MapScene.h",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\MapScene.h",
+              "RelativeDocumentMoniker": "Consol_RPG\\MapScene.h",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\MapScene.h",
+              "RelativeToolTip": "Consol_RPG\\MapScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-14T07:39:18.097Z",
+              "WhenOpened": "2026-05-15T05:59:22.957Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\main.cpp",
-              "RelativeDocumentMoniker": "Consol_RPG\\main.cpp",
-              "ToolTip": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\main.cpp",
-              "RelativeToolTip": "Consol_RPG\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAPAAAAAAAAAA==",
+              "Title": "TitleScene.cpp",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TitleScene.cpp",
+              "RelativeDocumentMoniker": "Consol_RPG\\TitleScene.cpp",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TitleScene.cpp",
+              "RelativeToolTip": "Consol_RPG\\TitleScene.cpp",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwDkAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-04-06T11:13:59.622Z",
+              "WhenOpened": "2026-05-15T04:40:02.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 1,
+              "Title": "TownScene.cpp",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TownScene.cpp",
+              "RelativeDocumentMoniker": "Consol_RPG\\TownScene.cpp",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TownScene.cpp",
+              "RelativeToolTip": "Consol_RPG\\TownScene.cpp",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAmwF4AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-15T04:37:42.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TownScene.h",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TownScene.h",
+              "RelativeDocumentMoniker": "Consol_RPG\\TownScene.h",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TownScene.h",
+              "RelativeToolTip": "Consol_RPG\\TownScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-15T04:24:40.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TitleScene.h",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TitleScene.h",
+              "RelativeDocumentMoniker": "Consol_RPG\\TitleScene.h",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TitleScene.h",
+              "RelativeToolTip": "Consol_RPG\\TitleScene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-14T07:39:18.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Scene.h",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Scene.h",
+              "RelativeDocumentMoniker": "Consol_RPG\\Scene.h",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Scene.h",
+              "RelativeToolTip": "Consol_RPG\\Scene.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-04-08T18:24:41.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "SceneManager.cpp",
-              "DocumentMoniker": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\SceneManager.cpp",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\SceneManager.cpp",
               "RelativeDocumentMoniker": "Consol_RPG\\SceneManager.cpp",
-              "ToolTip": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\SceneManager.cpp",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\SceneManager.cpp",
               "RelativeToolTip": "Consol_RPG\\SceneManager.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -139,50 +159,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Scene.h",
-              "DocumentMoniker": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Scene.h",
-              "RelativeDocumentMoniker": "Consol_RPG\\Scene.h",
-              "ToolTip": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Scene.h",
-              "RelativeToolTip": "Consol_RPG\\Scene.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-08T18:24:41.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "pch.h",
-              "DocumentMoniker": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\pch.h",
-              "RelativeDocumentMoniker": "Consol_RPG\\pch.h",
-              "ToolTip": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\pch.h",
-              "RelativeToolTip": "Consol_RPG\\pch.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-08T18:04:12.886Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "pch.cpp",
-              "DocumentMoniker": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\pch.cpp",
-              "RelativeDocumentMoniker": "Consol_RPG\\pch.cpp",
-              "ToolTip": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\pch.cpp",
-              "RelativeToolTip": "Consol_RPG\\pch.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-14T07:54:29.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
               "Title": "SceneManager.h",
-              "DocumentMoniker": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\SceneManager.h",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\SceneManager.h",
               "RelativeDocumentMoniker": "Consol_RPG\\SceneManager.h",
-              "ToolTip": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\SceneManager.h",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\SceneManager.h",
               "RelativeToolTip": "Consol_RPG\\SceneManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -190,28 +171,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Framework.h",
-              "DocumentMoniker": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Framework.h",
-              "RelativeDocumentMoniker": "Consol_RPG\\Framework.h",
-              "ToolTip": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\Framework.h",
-              "RelativeToolTip": "Consol_RPG\\Framework.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "pch.h",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\pch.h",
+              "RelativeDocumentMoniker": "Consol_RPG\\pch.h",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\pch.h",
+              "RelativeToolTip": "Consol_RPG\\pch.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-06T11:39:32.014Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T18:04:12.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "TimeManager.h",
-              "DocumentMoniker": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TimeManager.h",
-              "RelativeDocumentMoniker": "Consol_RPG\\TimeManager.h",
-              "ToolTip": "C:\\Github\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\TimeManager.h",
-              "RelativeToolTip": "Consol_RPG\\TimeManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-04-06T12:06:29.215Z"
+              "DocumentIndex": 10,
+              "Title": "pch.cpp",
+              "DocumentMoniker": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\pch.cpp",
+              "RelativeDocumentMoniker": "Consol_RPG\\pch.cpp",
+              "ToolTip": "C:\\GitHub\\survive-to-Game-engineering\\\uBA58\uD2F0\\\uD64D\uC608\uC900\\Consol_RPG\\Consol_RPG\\pch.cpp",
+              "RelativeToolTip": "Consol_RPG\\pch.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-14T07:54:29.855Z"
             }
           ]
         }
