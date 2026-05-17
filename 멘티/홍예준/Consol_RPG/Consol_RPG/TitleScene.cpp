@@ -2,10 +2,41 @@
 #include "TitleScene.h"
 #include "SceneManager.h"
 #include "TownScene.h"
+#include "UIManager.h"
 #include <iostream>
 
 void TitleScene::Init() {
 	// 타이틀 초기화 로직
+	UIManager::PrintTyping( "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ ", 10);
+	UIManager::PrintTyping( "■                                                                                          ■ ", 10);
+	UIManager::PrintTyping( "■                                                                                          ■ ", 10);
+	UIManager::PrintTyping( "■         ■■■■     ■■■    ■■■■      ■■■■    ■■■    ■                    ■ ", 10);
+	UIManager::PrintTyping( "■       ■           ■      ■  ■      ■  ■          ■      ■  ■                    ■ ", 10);
+	UIManager::PrintTyping( "■       ■           ■      ■  ■      ■    ■■■■  ■      ■  ■                    ■ ", 10);
+	UIManager::PrintTyping( "■       ■           ■      ■  ■      ■          ■  ■      ■  ■                    ■ ", 10);
+	UIManager::PrintTyping( "■         ■■■■     ■■■    ■      ■  ■■■■      ■■■    ■■■                ■ ", 10);
+	UIManager::PrintTyping( "■                                                                                          ■ ", 10);
+	UIManager::PrintTyping( "■                  ■■■■■■■□        ■■■■■■□          ■■■■■■■□        ■ ", 10);
+	UIManager::PrintTyping( "■                ■■■■■■■■■□    ■■■■■■■■□      ■■■■■■■■■□      ■ ", 10);
+	UIManager::PrintTyping( "■                ■■□        ■■□    ■■□        ■■□  ■■■□                    ■ ", 10);
+	UIManager::PrintTyping( "■                ■■□        ■■□    ■■□        ■■□  ■■□                      ■ ", 10);
+	UIManager::PrintTyping( "■                ■■■■■■■■□      ■■■■■■■■□    ■■□                      ■ ", 10);
+	UIManager::PrintTyping( "■                ■■■■■□            ■■■■■■■□      ■■□        ■■■□      ■ ", 10);
+	UIManager::PrintTyping( "■                ■■■■■■□          ■■□                ■■□      ■■■■□      ■ ", 10);
+	UIManager::PrintTyping( "■                ■■□  ■■■□        ■■□                ■■■□        ■■□      ■ ", 10);
+	UIManager::PrintTyping( "■                ■■□    ■■■□      ■■□                  ■■■■■■■■□        ■ ", 10);
+	UIManager::PrintTyping( "■                ■■□      ■■□      ■■□                    ■■■■■■□          ■ ", 10);
+	UIManager::PrintTyping( "■                                                                                          ■ ", 10);
+	UIManager::PrintTyping( "■                                                                                          ■ ", 10);
+	UIManager::PrintTyping( "■                  ~그냥 대충 해보는 RPG 게임 스토리도 뭣도 아무것도 없다~                 ■ ", 10);
+	UIManager::PrintTyping( "■                                                                                          ■ ", 10);
+	UIManager::PrintTyping( "■                                                                                          ■ ", 10);
+	UIManager::PrintTyping( "■                                - Press Enter to Start -                                  ■ ", 10);
+	UIManager::PrintTyping( "■                                                                                          ■ ", 10);
+	UIManager::PrintTyping( "■                                                                                          ■ ", 10);
+	UIManager::PrintTyping( "■                                                                                          ■ ", 10);
+	UIManager::PrintTyping( "■                                                                                          ■ ", 10);
+	UIManager::PrintTyping( "■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ ", 10);
 }
 
 void TitleScene::Update(float deltaTime) {

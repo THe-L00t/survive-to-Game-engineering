@@ -1,6 +1,9 @@
 #pragma once
 #include "pch.h"
 #include "Scene.h"
+#include "SceneManager.h"
+#include "TownScene.h"
+#include "UIManager.h"
 
 class MapScene : public Scene
 {
@@ -11,6 +14,8 @@ public:
 	void Update(float deltaTime) override;
 	void Render() override;
 	void Release() override;
+
+	
 
 private:
 	//맵의 아이디를 저장할 변수들
