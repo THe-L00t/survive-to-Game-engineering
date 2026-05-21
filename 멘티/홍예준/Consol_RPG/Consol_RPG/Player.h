@@ -1,5 +1,4 @@
 #pragma once
-#include "pch.h"
 
 //장비 구조체
 struct Equipment {

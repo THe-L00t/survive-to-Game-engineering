@@ -1,5 +1,6 @@
 ﻿#include "pch.h"
 #include "TitleScene.h"
+#include "Scene.h"
 #include "SceneManager.h"
 #include "TownScene.h"
 #include "UIManager.h"

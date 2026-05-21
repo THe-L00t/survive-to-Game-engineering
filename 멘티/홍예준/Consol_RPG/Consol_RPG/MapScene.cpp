@@ -1,7 +1,10 @@
-﻿#include "MapScene.h"
+﻿#include "pch.h"
+#include "MapScene.h"
+#include "SceneManager.h"
+#include "TownScene.h"
+#include "UIManager.h"
 
-
-static std::default_random_engine generator;
+static std::default_random_engine generator(std::random_device{}());
 static std::uniform_int_distribution<int> enemycount(0, 50);
 
 // 생성자로 넘어온 값을 변수에 저장
@@ -11,7 +14,20 @@ MapScene::MapScene(std::string name, int id) {
 }
 
 void MapScene::Init() {
+	metenemy = false;
+	mapcount = 0;
+	maxMenu = 3;
 	system("cls");
+}
+
+void MapScene::BattleSystem(int id) {
+	if (id == 1) {
+		UIManager::PrintTyping("!!!!몬스터 조우!!!!", 50);	
+
+	}
+	else if (id == 2) {
+		UIManager::PrintTyping("!!!!몬스터 조우!!!!", 50);
+	}
 }
 
 void MapScene::Update(float deltaTime) {
@@ -42,13 +58,35 @@ void MapScene::Update(float deltaTime) {
 			}
 			else if (key == 13) {		// 엔터 입력
 				if (selectedIndex == 0) {
+					int mapDice = enemycount(generator);							// 난수 생성
+					if (mapDice >= 0 && mapDice <= 24) {
+						MapScene::BattleSystem(mapID);
+						system("cls");
+						metenemy = true;											// 몬스터 조우
+					}
+					else if (mapDice >= 25 && mapDice <= 39) {
+						metenemy = false;
+						UIManager::PrintTyping("아이템 획득", 50);
+						system("cls");
+						// 아이템 획득
+					}
+					else if (mapDice >= 40 && mapDice <= 50) {
+						metenemy = false;
+						system("cls");
+						mapcount++;	// 앞으로 나아가기
+					}
+				}
+				else if (selectedIndex == 1) {
 					//맵 이동
 					SceneManager::Instance->ChangeScene(new TownScene);
+				}
+				else if (selectedIndex == 2) {
+					UIManager::PrintPlayerStatus();
 				}
 			}
 		}
 	}
-	else if (_kbhit()) {
+	else if (mapID == 2 && _kbhit()) {
 		int key = _getch();
 
 		// ESC(27) 키를 입력 받았을때
@@ -74,20 +112,32 @@ void MapScene::Update(float deltaTime) {
 			}
 			else if (key == 13) {		// 엔터 입력
 				if (selectedIndex == 0) {
-					enemycount(generator);							// 난수 생성
-					if (enemycount >= 0 && enemycount <= 24) {
-						metenemy = ture;							// 몬스터 조우
+					int mapDice = enemycount(generator);							// 난수 생성
+					if (mapDice >= 0 && mapDice <= 24) {
+						//metenemy = true;
+						system("cls");
+						MapScene::BattleSystem(mapID);
+
+						metenemy = true;											// 몬스터 조우
 					}
-					else if (enemycount >= 25 && enemycount <= 39) {
+					else if (mapDice >= 25 && mapDice <= 39) {
+						metenemy = false;
+						system("cls");
+						UIManager::PrintTyping("아이템 획득", 50);
 						// 아이템 획득
 					}
-					else if (enemycount >= 40 && enemycount <= 50) {
-						mapcount++	// 앞으로 나아가기
+					else if (mapDice >= 40 && mapDice <= 50) {
+						metenemy = false;
+						system("cls");
+						mapcount++;	// 앞으로 나아가기
 					}
 				}
 				else if (selectedIndex == 1) {
 					//맵 이동
 					SceneManager::Instance->ChangeScene(new TownScene);
+				}
+				else if (selectedIndex == 2) {
+					UIManager::PrintPlayerStatus();
 				}
 			}
 		}
@@ -95,18 +145,8 @@ void MapScene::Update(float deltaTime) {
 	
 }
 
-void BattleSystem(int id) {
-	if (id == 1) {
-		if (metenemy) {
-			UIManager::PrintTyping("!!!!몬스터 조우!!!!", 50);
-		}
-	}
-	else if (id == 2) {
 
-	}
-}
-
-void mapEx(int id) {
+void MapScene::MapEx(int id) {
 	if (id == 1) {
 		std::cout << "울창한 숲에 도착했습니다." << std::endl;
 		std::cout << "시원한 바람이 불고 가끔씩 들리는 새소리는 가만히 있어도 기분이 좋아지게 만듭니다." << std::endl;
@@ -132,8 +172,8 @@ void MapScene::Render() {
 	std::cout << "=================================" << std::endl;
 	std::cout << "         - " << mapName << " - " << std::endl;
 	std::cout << "=================================" << std::endl;
-	mapEx(mapID);
-	BattleSystem(mapID);
+	MapEx(mapID);
+	//BattleSystem(mapID);
 	if (isMenuOpen) {
 		std::cout << std::endl << "===== 맵 이동 메뉴 =====" << std::endl;
 
@@ -144,23 +184,24 @@ void MapScene::Render() {
 		else {
 			std::cout << "    1. 탐색한다" << std::endl;
 		}
-		if (selectedIndex == 0) {
+		if (selectedIndex == 1) {
 			std::cout << " ▶ 2. 마을로 이동" << std::endl;
 		}
 		else {
 			std::cout << "    2. 마을로 이동" << std::endl;
 		}
+		if (selectedIndex == 2) {
+			std::cout << " ▶ 3. 플레이어 정보 확인" << std::endl;
+		}
+		else {
+			std::cout << "    3. 플레이어 정보 확인" << std::endl;
+		}
 
-		std::cout << "========================";
+		std::cout << "========================" << std::endl;
 	}
 	else {
 		//메뉴가 닫혔을때 잔상 지우기
-		std::cout << "                                             " << std::endl;
-		std::cout << "                                             " << std::endl;
-		std::cout << "                                             " << std::endl;
-		std::cout << "                                             " << std::endl;
-		std::cout << "                                             " << std::endl;
-		std::cout << "                                             " << std::endl;
+		for (int i = 0; i < 6; i++) std::cout << "                                             " << std::endl;
 	}
 }
 

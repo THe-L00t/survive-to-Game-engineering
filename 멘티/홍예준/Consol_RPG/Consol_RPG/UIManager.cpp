@@ -1,4 +1,6 @@
+#include "pch.h"
 #include "UIManager.h"
+#include "Player.h"
 
 void UIManager::PrintPlayerStatus() {
 	std::cout << std::endl << "============플레이어 스텟============" << std::endl;

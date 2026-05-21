@@ -3,6 +3,7 @@
 #include "SceneManager.h"
 #include "MapScene.h"
 #include "UIManager.h"
+#include "Scene.h"
 
 void TownScene::Init() {
 	// 초기화
